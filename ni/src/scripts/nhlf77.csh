@@ -64,7 +64,7 @@ foreach arg ($argv)
 
   case "-netcdf":
   case "-cdf":
-    set extra_libs = "$extra_libs SED_NCDFLIBS"
+    set extra_libs = "$extra_libs SED_NCDFLIBS -lnetcdff"
     breaksw
 
   case "-hdf":
