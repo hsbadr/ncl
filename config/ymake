@@ -185,6 +185,13 @@ if ($useinstalled != 0) then
         endif
         set defines = ($defines -D_InstBin\=$bin_dir)
 
+        set share_dir = `ncargpath share`
+        if ($status != 0) then
+                echo "$0 : Unable to find NCARG_SHARE dir" > /dev/tty
+                exit 1
+        endif
+        set defines = ($defines -D_InstShare\=$share_dir)
+
         set inc_dir = `ncargpath include`
         if ($status != 0) then
                 echo "$0 : Unable to find NCARG_INCLUDE dir" > /dev/tty

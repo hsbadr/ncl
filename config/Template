@@ -164,6 +164,14 @@ NGCOMM########################################################################
 #endif	/* _IgnoreYmakeRoot */
 #endif	/* BinRoot */
 
+#ifndef	ShareRoot
+#ifndef	_IgnoreYmakeRoot
+#define	ShareRoot	YmakeRoot/share
+#else
+#define	ShareRoot	_InstShare
+#endif	/* _IgnoreYmakeRoot */
+#endif	/* ShareRoot */
+
 #ifndef	LibRoot
 #ifndef	_IgnoreYmakeRoot
 #define LibRoot YmakeRoot/lib
@@ -211,6 +219,14 @@ NGCOMM########################################################################
 #define	BinPath	RootPath/bin
 #else
 #define	BinPath	BinRoot
+#endif
+#endif
+
+#ifndef	SharePath
+#ifdef	_UseRootPath
+#define	SharePath	RootPath/share
+#else
+#define	SharePath	ShareRoot
 #endif
 #endif
 
@@ -605,6 +621,7 @@ MANROOT			= ManRoot
 TMPROOT			= TmpRoot
 
 ROOTPATH		= RootPath
+SHAREPATH		= SharePath
 BINPATH			= BinPath
 LIBPATH			= LibPath
 INCPATH			= IncPath
