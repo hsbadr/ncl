@@ -79,7 +79,7 @@ all::]\
 ]\
 all-local:: names]\
 ]\
-install-local:: names]\
+install-local:: ]\
 	MakeDir(dest)]\
 	@for name in names; do \ ]\
 	if (test -f $$name.$(EXE_SUFFIX)) then \ ]\
