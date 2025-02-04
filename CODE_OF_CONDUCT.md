@@ -28,7 +28,6 @@ Examples of unacceptable behavior include, but are not limited to:
 * Unwelcome sexual attention or advances
 * Inappropriate, negative, derogatory comments and/or attacks on personal beliefs
 * Publishing others' private information, such as a physical or electronic address, without explicit permission
-* Refusing to use the pronouns that someone requests
 * Alarming, intimidating, threatening, or hostile comments or conduct
 * Physical or verbal abuse by anyone to anyone, including but not limited to a participant, member of the public, guest, member of any institution or sponsor
 * Comments related to characteristics given in the pledge at the top
@@ -62,7 +61,7 @@ Any Contributor can use these reporting methods even if they are not directly af
 
 ## Consequences
 
-Upon receipt of a complaint, the project administrator(s) may take any action deemed necessary and appropriate under the circumstances. Such action can include things such as: removing, editing, or rejecting comments, commits, code, wiki edits, email, issues, and other contributions that are not aligned to this Code of Conduct, or banning temporarily or permanently any contributor for other behaviors that are deemed inappropriate, threatening, offensive, or harmful. Project Administrators also have the right to report violations to UCAR HR and/or UCAR's Office of Diversity, Equity and Inclusion (ODEI) as well as a participant's home institution and/or law enforcement. In the event an incident is reported to UCAR, UCAR will follow its Harassment Reporting and Complaint Procedure.
+Upon receipt of a complaint, the project administrator(s) may take any action deemed necessary and appropriate under the circumstances. Such action can include things such as: removing, editing, or rejecting comments, commits, code, wiki edits, email, issues, and other contributions that are not aligned to this Code of Conduct, or banning temporarily or permanently any contributor for other behaviors that are deemed inappropriate, threatening, offensive, or harmful. Project Administrators also have the right to report violations to UCAR HR as well as a participant's home institution and/or law enforcement. In the event an incident is reported to UCAR, UCAR will follow its Harassment Reporting and Complaint Procedure.
 
 ## Process for Changes
 
@@ -72,7 +71,7 @@ Projects that adopt this Code of Conduct need to stay up to date with UCAR's Con
 
 ## Attribution
 
-This Code of Conduct was originally adapted from the Contributor Covenant, version 1.4, available at [Contributor-Covenant](http://contributor-covenant.org/version/1/4). We then aligned it with the UCAR Participant Code of Conduct, which also borrows from the American Geophysical Union (AGU) Code of Conduct. The UCAR Participant Code of Conduct applies to both UCAR employees as well as participants in activities run by UCAR. We modified the "scope" section with the django project description, and we added "Publication Ethics" from the NGEET/FATES project. The original version of this for all software projects that have strong management from UCAR or UCAR staff is available on the UCAR website at [*Enter DOI link name*] (the date that it was adopted by this project was [*Enter date adopted*]). When responding to complaints UCAR HR and ODEI will do so based on the latest published version. Therefore, any project-specific changes should follow the Process for Changes section above.
+This Code of Conduct was originally adapted from the Contributor Covenant, version 1.4, available at [Contributor-Covenant](http://contributor-covenant.org/version/1/4). We then aligned it with the UCAR Participant Code of Conduct, which also borrows from the American Geophysical Union (AGU) Code of Conduct. The UCAR Participant Code of Conduct applies to both UCAR employees as well as participants in activities run by UCAR. We modified the "scope" section with the django project description, and we added "Publication Ethics" from the NGEET/FATES project. The original version of this for all software projects that have strong management from UCAR or UCAR staff is available on the UCAR website at [*Enter DOI link name*] (the date that it was adopted by this project was [*Enter date adopted*]). When responding to complaints UCAR HR will do so based on the latest published version. Therefore, any project-specific changes should follow the Process for Changes section above.
 
 ## Publication Ethics (optional)
 
